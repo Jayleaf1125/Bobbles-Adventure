@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c756425eae6ea448aff29f362259821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 544435962}
 --- !u!1 &233799027
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +467,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &544435964
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a85e54e7340a9f46ad875df00db7ff4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpingPower: 6
+  jumpingPower: 9
   rb: {fileID: 544435963}
   groundCheck: {fileID: 1591547323}
   groundLayer:
