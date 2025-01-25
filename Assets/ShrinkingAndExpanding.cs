@@ -10,7 +10,7 @@ public class ShrinkingAndExpanding : MonoBehaviour
     public bool isExpanded = false;
     public bool isTopClear = true;
 
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
@@ -25,7 +25,7 @@ public class ShrinkingAndExpanding : MonoBehaviour
         {
             Debug.Log(isTopClear);
 
-            if(isTopClear)
+            if (isTopClear)
             {
                 if (!isExpanded)
                 {
@@ -79,3 +79,4 @@ public class ShrinkingAndExpanding : MonoBehaviour
 
 
 }
+
