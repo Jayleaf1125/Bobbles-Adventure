@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 40b1afedd1772414fa8531b68f7bf34f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2592967584303444487
+    second: Bobble_walking_0
+  - first:
+      213: 7323437481964914496
+    second: Bobble_walking_1
+  - first:
+      213: 6337025267535909719
+    second: Bobble_walking_2
+  - first:
+      213: -3135783970339691392
+    second: Bobble_walking_3
+  - first:
+      213: -599046803004863936
+    second: Bobble_walking_4
+  - first:
+      213: 935604425498878354
+    second: Bobble_walking_5
+  - first:
+      213: -7727623802197941637
+    second: Bobble_walking_6
+  - first:
+      213: 1893773276359103923
+    second: Bobble_walking_7
+  - first:
+      213: -4183913917645163356
+    second: Bobble_walking_8
+  - first:
+      213: 5805103656621322278
+    second: Bobble_walking_9
+  - first:
+      213: -7486059613669845122
+    second: Bobble_walking_10
+  - first:
+      213: -6318890185871377006
+    second: Bobble_walking_11
+  - first:
+      213: 538597486517019184
+    second: Bobble_walking_12
+  - first:
+      213: 4044573397318911079
+    second: Bobble_walking_13
+  - first:
+      213: -454515758334218002
+    second: Bobble_walking_14
+  - first:
+      213: -9175926847021646032
+    second: Bobble_walking_15
+  - first:
+      213: -3633066223917276073
+    second: Bobble_walking_16
+  - first:
+      213: -3173349148388979991
+    second: Bobble_walking_17
+  - first:
+      213: -468065547043948344
+    second: Bobble_walking_18
+  - first:
+      213: 834876490195075840
+    second: Bobble_walking_19
+  - first:
+      213: 7404507854193839107
+    second: Bobble_walking_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bobble_walking_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 11
+        width: 633
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7027280a7421cf320800000000000000
+      internalID: 2592967584303444487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 591
+        width: 65
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047cc4fa69312a560800000000000000
+      internalID: 7323437481964914496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 16
+        width: 617
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7531724e7e2a1f750800000000000000
+      internalID: 6337025267535909719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_3
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 16
+        width: 600
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084e983d7157b74d0800000000000000
+      internalID: -3135783970339691392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_4
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 16
+        width: 601
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04acf074b12cfa7f0800000000000000
+      internalID: -599046803004863936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_5
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 16
+        width: 597
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291e428944febfc00800000000000000
+      internalID: 935604425498878354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_6
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 616
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7263283817f1c490800000000000000
+      internalID: -7727623802197941637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_7
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 16
+        width: 606
+        height: 695
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5138ed2c8084a10800000000000000
+      internalID: 1893773276359103923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_8
+      rect:
+        serializedVersion: 2
+        x: 4540
+        y: 603
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a472ff8570cfe5c0800000000000000
+      internalID: -4183913917645163356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_9
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 16
+        width: 624
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6203c39d40fdf8050800000000000000
+      internalID: 5805103656621322278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_10
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 570
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e779fc7b17c2c1890800000000000000
+      internalID: -7486059613669845122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_11
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 535
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d3f68dadace48a0800000000000000
+      internalID: -6318890185871377006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_12
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 463
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032e3c47f8b797700800000000000000
+      internalID: 538597486517019184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_13
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 129
+        width: 180
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76440376316312830800000000000000
+      internalID: 4044573397318911079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_14
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 148
+        width: 184
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0fbaf635c31b9f0800000000000000
+      internalID: -454515758334218002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_15
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 148
+        width: 184
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ffd46162f88a080800000000000000
+      internalID: -9175926847021646032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_16
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 148
+        width: 184
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754e0f5a481c49dc0800000000000000
+      internalID: -3633066223917276073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_17
+      rect:
+        serializedVersion: 2
+        x: 4316
+        y: 130
+        width: 182
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea8cfd33cff5f3d0800000000000000
+      internalID: -3173349148388979991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_18
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 29
+        width: 84
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8b8d86dd81189f0800000000000000
+      internalID: -468065547043948344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_19
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 29
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00307659eb3169b00800000000000000
+      internalID: 834876490195075840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble_walking_20
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 31
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c40d1a9a812c660800000000000000
+      internalID: 7404507854193839107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
