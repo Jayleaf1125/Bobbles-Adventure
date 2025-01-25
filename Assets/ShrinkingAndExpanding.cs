@@ -19,9 +19,9 @@ public class ShrinkingAndExpanding : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.F) && isTopClear())
+        if (Input.GetKeyDown(KeyCode.F))
         {
             if (!isExpanded)
             {
