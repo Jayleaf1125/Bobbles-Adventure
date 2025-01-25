@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ShrinkingAndExpanding : MonoBehaviour
@@ -5,11 +7,9 @@ public class ShrinkingAndExpanding : MonoBehaviour
     private BoxCollider2D playerCollider;
     private Transform playerTransform;
     public float playerSizeMultiplier = 2.0f;
-    private bool isExpanded = false;
+    public bool isExpanded = false;
+    public bool isTopClear = true;
 
-    public Vector2 boxSize;
-    public float castDistance;
-    public LayerMask groundLayer;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
@@ -23,47 +23,59 @@ public class ShrinkingAndExpanding : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
-            if (!isExpanded)
+            Debug.Log(isTopClear);
+
+            if(isTopClear)
             {
-                Expand();
+                if (!isExpanded)
+                {
+                    Expand();
+                    return;
+                }
+
+                if (isExpanded)
+                {
+                    Shrink();
+                    return;
+                }
             }
-            else
-            {
-                Shrink();
-            }
+
         }
     }
 
     public void Expand()
     {
-        Debug.Log("Expanding");
+        //Debug.Log("Expanding");
         playerTransform.localScale *= playerSizeMultiplier;
         isExpanded = true;
     }
 
     public void Shrink()
     {
-        Debug.Log("Shrinking");
+        //Debug.Log("Shrinking");
         playerTransform.localScale /= playerSizeMultiplier;
         isExpanded = false;
     }
 
-    public bool isTopClear()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Physics2D.BoxCast(transform.position, boxSize, 0, transform.up, castDistance, groundLayer))
+        if (collision.CompareTag("Ground"))
         {
-            Debug.Log("Is clear");
-            return true;
-        }
-        else
-        {
-            Debug.Log("Is not clear");
-            return false;
+            isTopClear = false;
+            return;
         }
     }
-    private void OnDrawGizmos()
+
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireCube(transform.position-transform.up * castDistance, boxSize);
+        if (collision.CompareTag("Ground"))
+        {
+            isTopClear = true;
+            return;
+        }
     }
+
+
+
+
 }
