@@ -32,12 +32,12 @@ public class ShrinkingAndExpanding : MonoBehaviour
                     Expand();
                     return;
                 }
+            }
 
-                if (isExpanded)
-                {
-                    Shrink();
-                    return;
-                }
+            if (isExpanded)
+            {
+                Shrink();
+                return;
             }
 
         }
