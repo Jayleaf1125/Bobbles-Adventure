@@ -7,25 +7,55 @@ public class PlayerMovement : MonoBehaviour
     public float jumpingPower = 6f;
     private bool isFacingRight = true;
     private bool isWalking;
+    private bool isIdle;
+    private bool isJumping;
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Transform groundCheck;
     [SerializeField] public LayerMask groundLayer;
+    public Animator anim;
 
     // Update is called once per frame
+    public void Start()
+    {
+    }
     void Update()
     {
+        anim.SetBool("isWalking", isWalking);
+        anim.SetBool("isIdle", isIdle);
+        anim.SetBool("isJumping", isJumping);
         horizontal = Input.GetAxisRaw("Horizontal");
-        isWalking = horizontal != 0 && IsGrounded();
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+            isJumping = true;
+            isIdle = false;
+            isWalking = false;
         }
 
         if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+             isJumping = true;
+            isIdle = false;
+            isWalking = false;
         }
+       
+        if(!Input.anyKeyDown)
+        {
+            isIdle = true;  
+            isWalking = false;
+            isJumping = false;
+
+        }
+        if (Input.GetKey("d") || Input.GetKey("a"))
+        {
+            Debug.Log("Burger");
+            isWalking = true;
+            isIdle = false;
+
+        }
+        
     }
     private void FixedUpdate()
     {
