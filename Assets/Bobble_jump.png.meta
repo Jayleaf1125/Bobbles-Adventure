@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 550
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,32 +123,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -156,10 +130,10 @@ TextureImporter:
       name: Bobble_jump_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 1044
-        height: 1227
+        x: 2280
+        y: 11
+        width: 735
+        height: 693
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +152,10 @@ TextureImporter:
       name: Bobble_jump_1
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 2
-        width: 1044
-        height: 1227
+        x: 4450
+        y: 26
+        width: 595
+        height: 761
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,10 +174,10 @@ TextureImporter:
       name: Bobble_jump_2
       rect:
         serializedVersion: 2
-        x: 2088
-        y: 2
-        width: 1044
-        height: 1227
+        x: 5478
+        y: 366
+        width: 654
+        height: 826
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +196,10 @@ TextureImporter:
       name: Bobble_jump_3
       rect:
         serializedVersion: 2
-        x: 3132
-        y: 2
-        width: 1044
-        height: 1227
+        x: 6443
+        y: 690
+        width: 825
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +218,10 @@ TextureImporter:
       name: Bobble_jump_4
       rect:
         serializedVersion: 2
-        x: 4176
-        y: 2
-        width: 1044
-        height: 1227
+        x: 7542
+        y: 199
+        width: 680
+        height: 728
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +240,10 @@ TextureImporter:
       name: Bobble_jump_5
       rect:
         serializedVersion: 2
-        x: 5220
-        y: 2
-        width: 1044
-        height: 1227
+        x: 178
+        y: 27
+        width: 737
+        height: 608
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +262,10 @@ TextureImporter:
       name: Bobble_jump_6
       rect:
         serializedVersion: 2
-        x: 6264
-        y: 2
-        width: 1044
-        height: 1227
+        x: 1224
+        y: 27
+        width: 737
+        height: 608
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +284,10 @@ TextureImporter:
       name: Bobble_jump_7
       rect:
         serializedVersion: 2
-        x: 7308
-        y: 2
-        width: 1044
-        height: 1227
+        x: 3270
+        y: 18
+        width: 867
+        height: 465
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,10 +306,10 @@ TextureImporter:
       name: Bobble_jump_8
       rect:
         serializedVersion: 2
-        x: 8352
-        y: 2
-        width: 1044
-        height: 1227
+        x: 8075
+        y: 354
+        width: 173
+        height: 154
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,11 +324,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bobble_jump_9
+      rect:
+        serializedVersion: 2
+        x: 8490
+        y: 28
+        width: 864
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27056d93a1af9870800000000000000
+      internalID: 8691843529940731695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fb239166e7bdfd243bf23b95517ddabd
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -373,6 +369,7 @@ TextureImporter:
       Bobble_jump_6: -1171001197723113600
       Bobble_jump_7: -6129550923413963764
       Bobble_jump_8: 8049433466186807542
+      Bobble_jump_9: 8691843529940731695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
