@@ -97,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -135,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -634,7 +634,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bobble_walking_0: 2592967584303444487
+      Bobble_walking_1: 7323437481964914496
+      Bobble_walking_10: -7486059613669845122
+      Bobble_walking_11: -6318890185871377006
+      Bobble_walking_12: 538597486517019184
+      Bobble_walking_13: 4044573397318911079
+      Bobble_walking_14: -454515758334218002
+      Bobble_walking_15: -9175926847021646032
+      Bobble_walking_16: -3633066223917276073
+      Bobble_walking_17: -3173349148388979991
+      Bobble_walking_18: -468065547043948344
+      Bobble_walking_19: 834876490195075840
+      Bobble_walking_2: 6337025267535909719
+      Bobble_walking_20: 7404507854193839107
+      Bobble_walking_3: -3135783970339691392
+      Bobble_walking_4: -599046803004863936
+      Bobble_walking_5: 935604425498878354
+      Bobble_walking_6: -7727623802197941637
+      Bobble_walking_7: 1893773276359103923
+      Bobble_walking_8: -4183913917645163356
+      Bobble_walking_9: 5805103656621322278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
