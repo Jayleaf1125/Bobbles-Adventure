@@ -118,10 +118,10 @@ TextureImporter:
       name: idle_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 34
-        width: 638
-        height: 699
+        x: 0
+        y: 2
+        width: 814
+        height: 748
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +140,10 @@ TextureImporter:
       name: idle_1
       rect:
         serializedVersion: 2
-        x: 862
-        y: 31
-        width: 708
-        height: 658
+        x: 814
+        y: 2
+        width: 814
+        height: 748
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: idle_2
       rect:
         serializedVersion: 2
-        x: 1667
-        y: 27
-        width: 737
-        height: 608
+        x: 1628
+        y: 2
+        width: 814
+        height: 748
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,10 +184,10 @@ TextureImporter:
       name: idle_3
       rect:
         serializedVersion: 2
-        x: 2459
-        y: 27
-        width: 765
-        height: 613
+        x: 2442
+        y: 2
+        width: 814
+        height: 748
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,10 +206,10 @@ TextureImporter:
       name: idle_4
       rect:
         serializedVersion: 2
-        x: 3296
-        y: 27
-        width: 748
-        height: 683
+        x: 3256
+        y: 2
+        width: 814
+        height: 748
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: idle_5
       rect:
         serializedVersion: 2
-        x: 4142
-        y: 26
-        width: 714
-        height: 690
+        x: 4070
+        y: 2
+        width: 814
+        height: 748
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 66c701853fc1c0f44b34e22f265a9fb2
     internalID: 0
     vertices: []
     indices: 
