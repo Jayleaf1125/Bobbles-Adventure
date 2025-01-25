@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontal;
     private float speed = 4f;
     public float jumpingPower = 6f;
-    private bool isFacingRight = true;
+    public bool left = true;
     private bool isWalking;
     private bool isIdle;
     private bool isJumping;
@@ -50,7 +50,6 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetKey("d") || Input.GetKey("a"))
         {
-            Debug.Log("Burger");
             isWalking = true;
             isIdle = false;
 
@@ -68,16 +67,13 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
-    private void Flip()
+    void FaceDirection(bool isFacingLeft)
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        Vector3 localScale = transform.localScale;
+        if (isFacingLeft && localScale.x > 0 || !isFacingLeft && localScale.x < 0)
         {
-            Vector3 localScale = transform.localScale;
-            isFacingRight = !isFacingRight;
-            localScale.x *= -1f;
+            localScale.x *= -1; // Flip the sprite by reversing the X scale
             transform.localScale = localScale;
         }
     }
-
-
 }

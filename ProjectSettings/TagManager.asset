@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Ground
   - Bullet
-  - TopCheck
+  - Box
   layers:
   - Default
   - TransparentFX
