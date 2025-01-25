@@ -17,12 +17,15 @@ public class BoxScript : MonoBehaviour
         {
             Debug.Log("hurr");
             body.mass = 1;
+           body.gravityScale = 1;
+
         }
         else
         {
             Debug.Log("burr");
 
             body.mass = 100f;
+            body.gravityScale = 100f;
 
         }
     }
