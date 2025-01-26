@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bobble jump_0: -500824602213754267
+      Bobble jump_1: -4039361240105405030
+      Bobble jump_10: 4729888327834846466
+      Bobble jump_2: -217354056899947945
+      Bobble jump_3: 1813270180144041362
+      Bobble jump_4: 6862444851470840173
+      Bobble jump_5: 5660285309434698317
+      Bobble jump_6: -6032105379928059469
+      Bobble jump_7: -8197871986466793467
+      Bobble jump_8: 6204129811717207508
+      Bobble jump_9: 7150701673445467826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
