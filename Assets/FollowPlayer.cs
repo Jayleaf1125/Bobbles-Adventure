@@ -24,7 +24,7 @@ public class FollowPlayer : MonoBehaviour
         {
             // Get the player's current y position
             float targetY = player.transform.position.y;
-
+ 
             // Clamp the y position so it does not go below minY
             if (targetY < minY)
             {
