@@ -953,7 +953,6 @@ GameObject:
   m_Component:
   - component: {fileID: 544435967}
   - component: {fileID: 544435969}
-  - component: {fileID: 544435971}
   - component: {fileID: 544435965}
   - component: {fileID: 544435964}
   - component: {fileID: 544435963}
@@ -1096,7 +1095,7 @@ MonoBehaviour:
   - {fileID: 1932653611}
   - {fileID: 1531886977}
   - {fileID: 1991274658}
-  playerHealth: {fileID: 544435971}
+  playerHealth: {fileID: 0}
 --- !u!114 &544435970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3022,7 +3021,6 @@ GameObject:
   - component: {fileID: 1265702225}
   - component: {fileID: 1265702226}
   - component: {fileID: 1265702227}
-  - component: {fileID: 1265702228}
   m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
@@ -3185,8 +3183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28805f62b757a0745a19bcd3661d4fc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: {fileID: 0}
-  player: {fileID: 544435962}
 --- !u!114 &1265702228
 MonoBehaviour:
   m_ObjectHideFlags: 0
