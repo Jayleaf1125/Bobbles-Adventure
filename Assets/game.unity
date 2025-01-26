@@ -1011,6 +1011,7 @@ MonoBehaviour:
   playerrb: {fileID: 544435963}
   player: {fileID: 544435965}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &544435971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1048,6 +1049,9 @@ MonoBehaviour:
   - {fileID: 1531886977}
   - {fileID: 1991274658}
   playerHealth: {fileID: 544435971}
+=======
+  sizeTransitioner: {fileID: 1880010091}
+>>>>>>> Stashed changes
 =======
   sizeTransitioner: {fileID: 1880010091}
 >>>>>>> Stashed changes
@@ -2956,9 +2960,12 @@ GameObject:
   - component: {fileID: 1265702225}
   - component: {fileID: 1265702226}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - component: {fileID: 1265702227}
   - component: {fileID: 1265702228}
   - component: {fileID: 1265702229}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Layer: 6
@@ -3112,6 +3119,7 @@ BoxCollider2D:
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &1265702227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3126,6 +3134,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: {fileID: 0}
   player: {fileID: 544435962}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!114 &1265702228
