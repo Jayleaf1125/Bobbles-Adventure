@@ -26,7 +26,7 @@ public class ShrinkingAndExpanding : MonoBehaviour
 
     void LateUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             // Only let the scale begin if we are not already in the middle of scaling
             if (scaleRoutine != null)
