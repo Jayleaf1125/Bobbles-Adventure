@@ -943,6 +943,11 @@ MonoBehaviour:
   speed: 4
   jumpingPower: 10
   left: 1
+  isWalking: 0
+  isIdle: 0
+  isJumping: 0
+  isGrowing: 0
+  dead: 0
   rb: {fileID: 544435963}
   groundCheck: {fileID: 1591547323}
   groundLayer:
@@ -985,6 +990,9 @@ MonoBehaviour:
   isTopClear: 1
   playerrb: {fileID: 544435963}
   player: {fileID: 544435965}
+  animator: {fileID: 0}
+  con1: {fileID: 0}
+  con2: {fileID: 0}
 --- !u!114 &544435971
 MonoBehaviour:
   m_ObjectHideFlags: 0
