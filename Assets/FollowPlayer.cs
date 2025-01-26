@@ -9,6 +9,12 @@ public class FollowPlayer : MonoBehaviour
     [Tooltip("Minimum Y position that the camera cannot go below.")]
     public float minY = 0f;
 
+    [Tooltip("Minimum X position that the camera cannot go below.")]
+    public float minX = -10f;
+
+    [Tooltip("Maximum X position that the camera cannot go above.")]
+    public float maxX = 10f;
+
     private void Start()
     {
         // Find the player GameObject if not assigned in the Inspector
@@ -22,18 +28,22 @@ public class FollowPlayer : MonoBehaviour
     {
         if (player != null)
         {
-            // Get the player's current y position
+            // Get the player's current X and Y positions
+            float targetX = player.transform.position.x;
             float targetY = player.transform.position.y;
 
-            // Clamp the y position so it does not go below minY
+            // Clamp the Y position so it does not go below minY
             if (targetY < minY)
             {
                 targetY = minY;
             }
 
-            // Update the camera position, preserving the desired x and z
+            // Clamp the X position so it stays within [minX, maxX]
+            targetX = Mathf.Clamp(targetX, minX, maxX);
+
+            // Update the camera position, preserving the desired Z
             transform.position = new Vector3(
-                player.transform.position.x,
+                targetX,
                 targetY,
                 -10f
             );
