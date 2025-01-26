@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 4f;
+    public float speed = 4f;
     public float jumpingPower = 6f;
     public bool left = true;
     private bool isWalking;
