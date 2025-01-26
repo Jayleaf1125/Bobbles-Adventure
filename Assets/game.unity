@@ -1114,27 +1114,6 @@ MonoBehaviour:
   shrinkDuration: 0.1
   isExpanded: 0
   isTopClear: 1
-<<<<<<< Updated upstream
---- !u!114 &544435971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544435962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d5ef070ca987db4ba139a72cd6df4e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 3
-  playerSr: {fileID: 1880010090}
-  playerMovement: {fileID: 544435965}
-=======
-  playerrb: {fileID: 544435963}
-  player: {fileID: 544435965}
->>>>>>> Stashed changes
 --- !u!1 &613217175
 GameObject:
   m_ObjectHideFlags: 0
@@ -3206,28 +3185,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: {fileID: 0}
   player: {fileID: 544435962}
---- !u!114 &1265702228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265702222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< Updated upstream
-  m_Script: {fileID: 11500000, guid: 815ed56e5559cf54cbfe9d5794878d2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: {fileID: 544435971}
-  damage: 1
-=======
-  m_Script: {fileID: 11500000, guid: 42cff898987cde44e84c823e0255b3c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 544435970}
-  body: {fileID: 1265702225}
->>>>>>> Stashed changes
 --- !u!1 &1492069670
 GameObject:
   m_ObjectHideFlags: 0
