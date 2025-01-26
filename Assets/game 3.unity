@@ -421,7 +421,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6405586, y: 1.9236364}
+    oldSize: {x: 1.3095368, y: 1.8109092}
     newSize: {x: 1.6405586, y: 1.9236364}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4645,8 +4645,8 @@ MonoBehaviour:
     pitch: 0
     loop: 0
     source: {fileID: 0}
-  - name: blast
-    clip: {fileID: 8300000, guid: 83814426f6eac4f4390e14d85b6a0de7, type: 3}
+  - name: chomp
+    clip: {fileID: 8300000, guid: 4532d9c7b6996b245a3d319371dbb33f, type: 3}
     volume: 1
     pitch: 0
     loop: 0
