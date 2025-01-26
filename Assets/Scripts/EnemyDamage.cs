@@ -8,6 +8,7 @@ public class EnemyDamage : MonoBehaviour
     void Start()
     {
         //playerHealth = GameObject.FindGameObjectsWithTag("Player").GetComponent<>(PlayerHealth);
+        playerHealth = GameObject.FindAnyObjectByType<PlayerHealth>();
     }
 
     // Update is called once per frame
@@ -24,4 +25,14 @@ public class EnemyDamage : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            playerHealth.TakeDamage(damage);
+            Destroy(gameObject);
+        }
+    }
 }
+
+  

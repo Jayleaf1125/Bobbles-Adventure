@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -18,8 +19,15 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if(health <= 0)
         {
-            playerSr.enabled = false;
-            playerMovement.enabled = false;
+            playerMovement.dead = true;
+            playerMovement.isGrowing = false;
+            playerMovement.isJumping = false;
+            playerMovement.isIdle = false;
+            playerMovement.isWalking = false;
+            //playerMovement.enabled = false;
+            //SceneManager.LoadScene(1);
         }
+        Debug.Log("huh");
+
     }
 }
