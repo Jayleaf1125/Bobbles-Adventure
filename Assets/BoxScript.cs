@@ -15,14 +15,12 @@ public class BoxScript : MonoBehaviour
     {
         if (player.isExpanded)
         {
-            Debug.Log("hurr");
             body.mass = 1;
            body.gravityScale = 1;
 
         }
         else
         {
-            Debug.Log("burr");
 
             body.mass = 100f;
             body.gravityScale = 100f;

@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isWalking;
     private bool isIdle;
     private bool isJumping;
+    public bool isGrowing;
+
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Transform groundCheck;
     [SerializeField] public LayerMask groundLayer;
@@ -23,6 +25,8 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("isWalking", isWalking);
         anim.SetBool("isIdle", isIdle);
         anim.SetBool("isJumping", isJumping);
+        anim.SetBool("isGrowing", isGrowing);
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
@@ -48,13 +52,23 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
 
         }
-        if (Input.GetKey("d") || Input.GetKey("a"))
+        if (Input.GetKey("d"))
         {
             isWalking = true;
             isIdle = false;
+            FaceDirection(true);
 
         }
-        
+        if (Input.GetKey("a"))
+        {
+            isWalking = true;
+            isIdle = false;
+            FaceDirection(false);
+
+        }
+
+
+
     }
     private void FixedUpdate()
     {
@@ -67,6 +81,13 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
+    public void Reset()
+    {
+        isWalking = false;
+        isIdle = false;
+        isJumping = false;
+        isGrowing = false;
+    }
     void FaceDirection(bool isFacingLeft)
     {
         Vector3 localScale = transform.localScale;
