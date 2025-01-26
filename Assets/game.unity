@@ -1010,55 +1010,7 @@ MonoBehaviour:
   isTopClear: 1
   playerrb: {fileID: 544435963}
   player: {fileID: 544435965}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
---- !u!114 &544435971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544435962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 473ed7417d686de4a9f14a69a195edee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  maxHealth: 3
-  playerSr: {fileID: 1880010090}
-  playerMovement: {fileID: 544435965}
---- !u!114 &544435972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544435962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e03ff2cc9f2757d4ea20f107b37496f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 0
-  maxHealth: 3
-  emptyHeart: {fileID: -3368649114950350982, guid: 39a1bd6ab00c0454e8bd560dfa221f79, type: 3}
-  fullHeart: {fileID: -3617069623210058494, guid: 49d0f43a8c9b2d7458bb16e7f38294f1, type: 3}
-  hearts:
-  - {fileID: 1932653611}
-  - {fileID: 1531886977}
-  - {fileID: 1991274658}
-  playerHealth: {fileID: 544435971}
-=======
   sizeTransitioner: {fileID: 1880010091}
->>>>>>> Stashed changes
-=======
-  sizeTransitioner: {fileID: 1880010091}
->>>>>>> Stashed changes
-=======
-  sizeTransitioner: {fileID: 1880010091}
->>>>>>> Stashed changes
 --- !u!1 &613217175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,18 +2915,6 @@ GameObject:
   - component: {fileID: 1265702223}
   - component: {fileID: 1265702225}
   - component: {fileID: 1265702226}
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-  - component: {fileID: 1265702227}
-  - component: {fileID: 1265702228}
-  - component: {fileID: 1265702229}
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
@@ -3125,44 +3065,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
---- !u!114 &1265702227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265702222}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28805f62b757a0745a19bcd3661d4fc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: {fileID: 0}
-  player: {fileID: 544435962}
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 --- !u!114 &1265702228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265702222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 42cff898987cde44e84c823e0255b3c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 544435970}
-  body: {fileID: 1265702225}
---- !u!114 &1265702229
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
