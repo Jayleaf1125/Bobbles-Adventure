@@ -44,10 +44,10 @@ public class TimedProjectileShooter : MonoBehaviour
     private void FireProjectile()
     {
         // Instantiate the projectile at this object's position and rotation
-        GameObject newProjectile = Instantiate(projectilePrefab, transform.position, transform.rotation);
-
-        // Get the Rigidbody2D component on the projectile
-        Rigidbody2D rb = newProjectile.GetComponent<Rigidbody2D>();
+        if(shootLeft)
+        {
+          GameObject newProjectile = Instantiate(projectilePrefab, new Vector3(transform.position.x - 1f, transform.position.y, transform.position.z), transform.rotation);
+              Rigidbody2D rb = newProjectile.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
             // Decide the direction: left or right
@@ -60,5 +60,24 @@ public class TimedProjectileShooter : MonoBehaviour
         {
             Debug.LogWarning("Projectile prefab has no Rigidbody2D! Please add one.");
         }
+        }else
+        {
+          GameObject newProjectile = Instantiate(projectilePrefab, new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z), transform.rotation);
+            Rigidbody2D rb = newProjectile.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            // Decide the direction: left or right
+            Vector2 direction = shootLeft ? Vector2.left : Vector2.right;
+
+            // Set the projectile's velocity
+            rb.linearVelocity = direction * projectileSpeed;
+        }
+        else
+        {
+            Debug.LogWarning("Projectile prefab has no Rigidbody2D! Please add one.");
+        }
+
+        }
+
     }
 }

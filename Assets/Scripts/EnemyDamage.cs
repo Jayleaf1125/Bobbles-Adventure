@@ -7,7 +7,7 @@ public class EnemyDamage : MonoBehaviour
 
     void Start()
     {
-        
+        //playerHealth = GameObject.FindGameObjectsWithTag("Player").GetComponent<>(PlayerHealth);
     }
 
     // Update is called once per frame
