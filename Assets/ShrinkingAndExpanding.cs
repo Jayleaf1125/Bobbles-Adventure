@@ -15,13 +15,13 @@ public class ShrinkingAndExpanding : MonoBehaviour
     public PlayerMovement player;
 
     private Coroutine scaleRoutine;
-    public SizeTransitioner sizeTransitioner;
+
     private void Awake()
     {
         playerTransform = GetComponent<Transform>();
     }
 
-    void Update()
+    void LateUpdate()
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -42,7 +42,6 @@ public class ShrinkingAndExpanding : MonoBehaviour
                 // Shrink over time
                 scaleRoutine = StartCoroutine(DoScaleOverTime(
                     1f / playerSizeMultiplier, shrinkDuration));
-
             }
         }
     }
@@ -52,7 +51,6 @@ public class ShrinkingAndExpanding : MonoBehaviour
         // Remember original scale
         Vector3 startScale = playerTransform.localScale;
         Vector3 endScale = startScale * multiplier;
-        player.isGrowing = true;
 
         float timeElapsed = 0f;
 
@@ -78,7 +76,6 @@ public class ShrinkingAndExpanding : MonoBehaviour
         // Now adjust speed, jump, etc.
         if (isExpanded)
         {
-            sizeTransitioner.Blow();
             // Expand "final" values
             player.jumpingPower = 15f;
             player.speed = 2f;
@@ -87,7 +84,6 @@ public class ShrinkingAndExpanding : MonoBehaviour
         }
         else
         {
-            sizeTransitioner.Shrink();
             // Shrink "final" values
             player.jumpingPower = 8f;
             player.speed = 4f;
