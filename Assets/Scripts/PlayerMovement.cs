@@ -6,9 +6,12 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 4f;
     public float jumpingPower = 6f;
     public bool left = true;
-    private bool isWalking;
-    private bool isIdle;
-    private bool isJumping;
+    public bool isWalking;
+    public bool isIdle;
+    public bool isJumping;
+    public bool isGrowing;
+    public bool dead;
+
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Transform groundCheck;
     [SerializeField] public LayerMask groundLayer;
@@ -23,6 +26,10 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("isWalking", isWalking);
         anim.SetBool("isIdle", isIdle);
         anim.SetBool("isJumping", isJumping);
+        anim.SetBool("isGrowing", isGrowing);
+        anim.SetBool("Death", dead);
+
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
@@ -48,11 +55,19 @@ public class PlayerMovement : MonoBehaviour
             isJumping = false;
 
         }
-        if (Input.GetKey("d") || Input.GetKey("a"))
+        if (Input.GetKey("d"))
         {
             isWalking = true;
             isIdle = false;
+            FaceDirection(true);
 
+
+        }
+        if (Input.GetKey("a"))
+        {
+            isWalking = true;
+            isIdle = false;
+            FaceDirection(false);
         }
         
     }

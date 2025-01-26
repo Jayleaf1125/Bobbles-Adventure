@@ -15,6 +15,9 @@ public class ShrinkingAndExpanding : MonoBehaviour
     public PlayerMovement player;
 
     private Coroutine scaleRoutine;
+    public Animator animator;
+    public RuntimeAnimatorController con1;
+    public RuntimeAnimatorController con2;
 
     private void Awake()
     {
@@ -77,6 +80,13 @@ public class ShrinkingAndExpanding : MonoBehaviour
         if (isExpanded)
         {
             // Expand "final" values
+            animator.runtimeAnimatorController = con1;
+            player.isGrowing = false;
+            player.isJumping = false;
+            player.isIdle = false;
+            player.isWalking = false;
+
+
             player.jumpingPower = 15f;
             player.speed = 2f;
             playerrb.mass = 1;
@@ -84,7 +94,13 @@ public class ShrinkingAndExpanding : MonoBehaviour
         }
         else
         {
+            player.isGrowing = false;
+            player.isJumping = false;
+            player.isIdle = false;
+            player.isWalking = false;
             // Shrink "final" values
+            animator.runtimeAnimatorController = con2;
+
             player.jumpingPower = 8f;
             player.speed = 4f;
             playerrb.mass = 1;

@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: afd4678807407b04680f5c5e046199e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3927901233272341809
+    second: Bobble DIES_0
+  - first:
+      213: -2886111202830698679
+    second: Bobble DIES_1
+  - first:
+      213: -2962507554437140505
+    second: Bobble DIES_2
+  - first:
+      213: -2586428261442203957
+    second: Bobble DIES_3
+  - first:
+      213: 1715722429881918866
+    second: Bobble DIES_4
+  - first:
+      213: -9170106369260240539
+    second: Bobble DIES_5
+  - first:
+      213: 1045362231040566151
+    second: Bobble DIES_6
+  - first:
+      213: 315288063019826899
+    second: Bobble DIES_7
+  - first:
+      213: 818204255270994678
+    second: Bobble DIES_8
+  - first:
+      213: -631156846713569134
+    second: Bobble DIES_9
+  - first:
+      213: 3813554505008181514
+    second: Bobble DIES_10
+  - first:
+      213: -8906757305352480070
+    second: Bobble DIES_11
+  - first:
+      213: 6709567624071795031
+    second: Bobble DIES_12
+  - first:
+      213: 1819833480107343169
+    second: Bobble DIES_13
+  - first:
+      213: -6167689429647686922
+    second: Bobble DIES_14
+  - first:
+      213: -6881689976250391653
+    second: Bobble DIES_15
+  - first:
+      213: -6312858258282671828
+    second: Bobble DIES_16
+  - first:
+      213: 4096009455199158536
+    second: Bobble DIES_17
+  - first:
+      213: 6617780400562632845
+    second: Bobble DIES_18
+  - first:
+      213: 3828237103250003971
+    second: Bobble DIES_19
+  - first:
+      213: 3487437097549784469
+    second: Bobble DIES_20
+  - first:
+      213: -451259415239383350
+    second: Bobble DIES_21
+  - first:
+      213: -6694536983382893162
+    second: Bobble DIES_22
+  - first:
+      213: 2494371609719903688
+    second: Bobble DIES_23
+  - first:
+      213: -8772311220576911282
+    second: Bobble DIES_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 550
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bobble DIES_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135440a5c55b28630800000000000000
+      internalID: 3927901233272341809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble DIES_1
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947300df62972f7d0800000000000000
+      internalID: -2886111202830698679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble DIES_2
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efec55431f03e6d0800000000000000
+      internalID: -2962507554437140505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble DIES_3
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcec4bf13392b1cd0800000000000000
+      internalID: -2586428261442203957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble DIES_4
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295284ea5787fc710800000000000000
+      internalID: 1715722429881918866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble DIES_5
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56142bba7dc3db080800000000000000
+      internalID: -9170106369260240539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble DIES_6
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78368ca196fd18e00800000000000000
+      internalID: 1045362231040566151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bobble DIES_7
+      rect:
+        serializedVersion: 2
+        x: 5712
+        y: 1
+        width: 816
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3deb736a2d0206400800000000000000
+      internalID: 315288063019826899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 85602971eca0aa844a659e275b80b176
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bobble DIES_0: 3927901233272341809
+      Bobble DIES_1: -2886111202830698679
+      Bobble DIES_2: -2962507554437140505
+      Bobble DIES_3: -2586428261442203957
+      Bobble DIES_4: 1715722429881918866
+      Bobble DIES_5: -9170106369260240539
+      Bobble DIES_6: 1045362231040566151
+      Bobble DIES_7: 315288063019826899
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
