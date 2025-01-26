@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
             playerMovement.isIdle = false;
             playerMovement.isWalking = false;
             //playerMovement.enabled = false;
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
         Debug.Log("huh");
 

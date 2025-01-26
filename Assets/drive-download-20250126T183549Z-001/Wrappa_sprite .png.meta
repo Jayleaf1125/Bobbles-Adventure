@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wrappa_sprite _0: -8488266784043201735
+      Wrappa_sprite _1: -2152927798680856688
+      Wrappa_sprite _2: 1100569689743283515
+      Wrappa_sprite _3: 7148354546767636188
+      Wrappa_sprite _4: -3410430933444203879
+      Wrappa_sprite _5: 3289029894070766161
+      Wrappa_sprite _6: -2753378657619292774
+      Wrappa_sprite _7: -5750780186758682922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
