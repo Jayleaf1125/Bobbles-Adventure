@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 7c8b6c34818a7ea4eb22d2f951bd8ad0
   - enabled: 1
+    path: Assets/Scenes/KingsLetter.unity
+    guid: 9cb328d94f5369e479bf960fa424ec11
+  - enabled: 1
     path: Assets/game 3.unity
     guid: 03414745d26ed494ebbf12ad42333093
   - enabled: 1
