@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     public void Start()
     {
+        dead = false;
     }
     void Update()
     {
@@ -30,45 +31,53 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("Death", dead);
 
 
-        horizontal = Input.GetAxisRaw("Horizontal");
-
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (!dead)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
-            isJumping = true;
-            isIdle = false;
-            isWalking = false;
-        }
+            horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-             isJumping = true;
-            isIdle = false;
-            isWalking = false;
-        }
-       
-        if(!Input.anyKeyDown)
-        {
-            isIdle = true;  
-            isWalking = false;
-            isJumping = false;
+            if (Input.GetButtonDown("Jump") && IsGrounded())
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
+                isJumping = true;
+                isIdle = false;
+                isWalking = false;
+            }
 
-        }
-        if (Input.GetKey("d"))
-        {
-            isWalking = true;
-            isIdle = false;
-            FaceDirection(true);
+            if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+                isJumping = true;
+                isIdle = false;
+                isWalking = false;
+            }
+
+            if (!Input.anyKeyDown)
+            {
+                isIdle = true;
+                isWalking = false;
+                isJumping = false;
+
+            }
+            if (Input.GetKey("d"))
+            {
+                isWalking = true;
+                isIdle = false;
+                FaceDirection(true);
 
 
+            }
+            if (Input.GetKey("a"))
+            {
+                isWalking = true;
+                isIdle = false;
+                FaceDirection(false);
+            }
         }
-        if (Input.GetKey("a"))
+        else
         {
-            isWalking = true;
-            isIdle = false;
-            FaceDirection(false);
+            speed = 0f;
         }
+     
         
     }
     private void FixedUpdate()
