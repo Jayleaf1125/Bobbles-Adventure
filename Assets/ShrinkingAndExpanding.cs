@@ -36,6 +36,8 @@ public class ShrinkingAndExpanding : MonoBehaviour
 
             if (isTopClear && !isExpanded)
             {
+                FindFirstObjectByType<AudioManager>().Play("turnbig", 1f, 0.3f, false);
+
                 // Expand over time
                 scaleRoutine = StartCoroutine(DoScaleOverTime(
                     playerSizeMultiplier, expandDuration));
@@ -43,6 +45,8 @@ public class ShrinkingAndExpanding : MonoBehaviour
             else if (isExpanded)
             {
                 // Shrink over time
+                FindFirstObjectByType<AudioManager>().Play("deflate", 1f, 0.3f, false);
+
                 scaleRoutine = StartCoroutine(DoScaleOverTime(
                     1f / playerSizeMultiplier, shrinkDuration));
             }

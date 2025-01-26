@@ -78,6 +78,8 @@ public class TimedProjectileShooter : MonoBehaviour
         }
 
         }
+        FindFirstObjectByType<AudioManager>().Play("blast", 1f, 0.3f, false);
+
 
     }
 }

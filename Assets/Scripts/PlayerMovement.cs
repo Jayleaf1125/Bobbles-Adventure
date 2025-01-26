@@ -41,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
                 isJumping = true;
                 isIdle = false;
                 isWalking = false;
+                FindFirstObjectByType<AudioManager>().Play("bubblenoise", 1f, 0.3f, false);
+
             }
 
             if (Input.GetButtonUp("Jump") && rb.linearVelocity.y > 0f)
@@ -76,9 +78,11 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             speed = 0f;
+            FindFirstObjectByType<AudioManager>().Play("dying", 1f, 0.3f, false);
+
         }
-     
-        
+
+
     }
     private void FixedUpdate()
     {
