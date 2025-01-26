@@ -87,7 +87,7 @@ public class ShrinkingAndExpanding : MonoBehaviour
             player.isWalking = false;
 
 
-            player.jumpingPower = 15f;
+            player.jumpingPower = 13f;
             player.speed = 2f;
             playerrb.mass = 1;
             playerrb.gravityScale = 1.5f;
