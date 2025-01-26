@@ -126,6 +126,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -384,7 +410,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bobble jump_0: -500824602213754267
+      Bobble jump_1: -4039361240105405030
+      Bobble jump_10: 4729888327834846466
+      Bobble jump_2: -217354056899947945
+      Bobble jump_3: 1813270180144041362
+      Bobble jump_4: 6862444851470840173
+      Bobble jump_5: 5660285309434698317
+      Bobble jump_6: -6032105379928059469
+      Bobble jump_7: -8197871986466793467
+      Bobble jump_8: 6204129811717207508
+      Bobble jump_9: 7150701673445467826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
